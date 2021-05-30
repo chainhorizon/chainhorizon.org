@@ -9,6 +9,7 @@
     "skyutil": "^0.0.1"
   },
   "devDependencies": {
+    "@types/node": "^15.6.1",
     "css-loader": "^5.2.1",
     "less-loader": "^8.1.0",
     "mini-css-extract-plugin": "^1.4.1",

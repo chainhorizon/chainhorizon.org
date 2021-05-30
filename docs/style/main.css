@@ -1,10 +1,10 @@
-@import url(https://rsms.me/inter/inter.css);
 /*
 https://github.com/Hanul/sky-css-base
 v0.0.1 | 20210109
 Author: Sim Young Jae
 License: MIT
 */
+@import url("https://rsms.me/inter/inter.css");
 html,
 body,
 div,
@@ -185,19 +185,12 @@ body {
   flex-grow: 1;
   width: calc(50% - 100px);
 }
-#swap > .from > .panel,
-#swap > .to > .panel {
-  margin: auto;
-  margin-top: 100px;
-  width: 300px;
-  height: 200px;
-  border: 1px solid #000000;
-  padding: 30px;
-  border-radius: 15px;
-}
-#swap > .from > .panel > .balance > .test-mint-button,
-#swap > .to > .panel > .balance > .test-mint-button {
-  display: block;
+#swap > .from > .button,
+#swap > .to > .button {
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 5px;
+  width: 100%;
 }
 #swap > .horizon {
   width: 200px;
@@ -214,14 +207,3 @@ body {
   width: 50px;
   padding: 20px 0;
 }
-#swap > .horizon > .button {
-  margin-top: 10px;
-  display: block;
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: 5px;
-  width: 100%;
-  text-align: center;
-  padding: 10px 0;
-}
-
